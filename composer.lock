@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "45dc89412f8ece5b0440a84b77313a1d",
+    "content-hash": "f0d5acd243f5cfe52efee0e2290cf139",
     "packages": [
         {
             "name": "camfindlay/silverstripe-twofactorauth",
@@ -1689,7 +1689,9 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.3.3"
+        "php": ">=5.3.3",
+        "ext-mbstring": "^7.1",
+        "ext-gd": "^7.1"
     },
     "platform-dev": []
 }
