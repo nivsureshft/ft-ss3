@@ -1,0 +1,21 @@
+{
+  "name": "ft-silverstripe",
+  "version": "1.0.0",
+  "description": "FT silverstripe CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
+    "heroku-postbuild": "./themes/base npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nivsureshft/ft-ss3.git"
+  },
+  "author": "Niv Suresh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nivsureshft/ft-ss3/issues"
+  },
+  "homepage": "https://github.com/nivsureshft/ft-ss3#readme"
+}
