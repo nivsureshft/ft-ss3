@@ -12,14 +12,14 @@ global $databaseConfig;
 	'database' => 'niv.suresh',
 	'path' => ''
 );*/
+
 $databaseConfig = array(
 	'type' => 'PostgreSQLDatabase',
-	'server' => 'ec2-54-75-231-156.eu-west-1.compute.amazonaws.com',
-	'username' => 'ctxvthrqdqrbfi',
-	'password' => 'e642c895de5fe4bbfab21925dacc657b9f891bbe4d267cbc6607fb29b039a139',
-	'database' => 'df5211dbj57t0d',
-	'path' => ''
-);
+	'server' => 'ec2-63-32-205-164.eu-west-1.compute.amazonaws.com',
+	'username' => 'u9igksm5sum5f5',
+	'password' => 'paf1cb70638cd21b3adc06199d9582ba8a800763c25f94a885c34267e21a36b24',
+	'database' => 'd72l1pp4sq208l'
+ );
 
 // Set the site locale
 i18n::set_locale('en_US');
