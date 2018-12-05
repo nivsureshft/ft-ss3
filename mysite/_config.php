@@ -14,12 +14,11 @@ global $databaseConfig;
 );*/
 
 $databaseConfig = array(
-	'type' => 'PostgreSQLDatabase',
-	'server' => 'ec2-63-32-205-164.eu-west-1.compute.amazonaws.com',
-	'username' => 'u9igksm5sum5f5',
-	'password' => 'paf1cb70638cd21b3adc06199d9582ba8a800763c25f94a885c34267e21a36b24',
-	'database' => 'd72l1pp4sq208l'
- );
-
+    'type' => 'MySQLDatabase',
+    'server' => 'wyqk6x041tfxg39e.chr7pe7iynqr.eu-west-1.rds.amazonaws.com',
+    'username' => 'f1h5s554zydvo4mj',
+    'password' => 'gdltv1ru5ay2404y',
+    'database' => 'ovf13fr54nf2zuvm',
+);
 // Set the site locale
 i18n::set_locale('en_US');
