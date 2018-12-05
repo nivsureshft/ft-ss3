@@ -21,6 +21,9 @@
             "3.x-dev": "3.6.x-dev"
         }
     },
+    "scripts": {
+        "postinstall": "cd themes/base && npm run build"
+    },
     "config": {
         "process-timeout": 600,
         "platform": {
