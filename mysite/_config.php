@@ -15,7 +15,7 @@ global $databaseConfig;
 
 $databaseConfig = array(
     'type' => 'MySQLDatabase',
-    'server' => 'wyqk6x041tfxg39e.chr7pe7iynqr.eu-west-1.rds.amazonaws.com',
+    'server' => getenv('HOST'),
     'username' => 'f1h5s554zydvo4mj',
     'password' => 'gdltv1ru5ay2404y',
     'database' => 'ovf13fr54nf2zuvm',
