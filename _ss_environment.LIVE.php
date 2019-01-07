@@ -19,3 +19,7 @@ define('SS_DATABASE_PASSWORD', getenv('DBPASS'));
 define('SS_DEFAULT_ADMIN_USERNAME', 'niv.suresh@ft.co.uk');
 define('SS_DEFAULT_ADMIN_PASSWORD', 'ch411c0n');
 
+var_dump(getenv('DBHOST'));
+var_dump(getenv('DBNAME'));
+var_dump(getenv('DBUSER'));
+var_dump(getenv('DBPASS'));
