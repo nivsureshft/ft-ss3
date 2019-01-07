@@ -2,7 +2,7 @@
 /silverstripe-cache/
 
 # ignore all environment files
-_ss_environment.php
+
 
 # ignore composer vendor folder
 /vendor/
@@ -13,4 +13,5 @@ _ss_environment.php
 /reports/
 /themes/simple
 .DS_Store
+log/
 
