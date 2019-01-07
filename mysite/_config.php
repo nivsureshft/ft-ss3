@@ -3,22 +3,10 @@
 global $project;
 $project = 'mysite';
 
-global $databaseConfig;
-/*$databaseConfig = array(
-	'type' => 'PostgreSQLDatabase',
-	'server' => 'localhost',
-	'username' => 'niv.suresh',
-	'password' => 'ch411c0n',
-	'database' => 'niv.suresh',
-	'path' => ''
-);*/
+global $database;
+$database = '(databasename)';
 
-$databaseConfig = array(
-    'type' => 'MySQLDatabase',
-    'server' => getenv('HOST'),
-    'username' => 'f1h5s554zydvo4mj',
-    'password' => 'gdltv1ru5ay2404y',
-    'database' => 'ovf13fr54nf2zuvm',
-);
+// Use _ss_environment.php file for configuration
+require_once("conf/ConfigureFromEnv.php");
 // Set the site locale
 i18n::set_locale('en_US');
