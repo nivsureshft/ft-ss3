@@ -26,7 +26,7 @@
         "postinstall": "cd themes/base && npm run build"
     },
     "config": {
-        "process-timeout": 300,
+        "process-timeout": 400,
         "platform": {
             "ext-sqreen": "1.10.0"
         }
