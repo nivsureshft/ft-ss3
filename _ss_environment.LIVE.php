@@ -11,7 +11,7 @@ define('SS_ENVIRONMENT_TYPE', 'dev'); //dev/test/live
 
 define('SS_DATABASE_CLASS', 'MySQLDatabase');
 define('SS_DATABASE_SERVER', getenv('DBHOST'));
-define('SS_DATABASE_NAME', getenv('DBNAME'));
+define('SS_DATABASE_NAME', 'ovf13fr54nf2zuvm');
 define('SS_DATABASE_USERNAME', 'f1h5s554zydvo4mj');
 define('SS_DATABASE_PASSWORD', 'gdltv1ru5ay2404y');
 
