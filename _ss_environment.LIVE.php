@@ -5,7 +5,7 @@
 // http://doc.silverstripe.org/framework/en/topics/environment-management
 
 
-define('SS_ENVIRONMENT_TYPE', 'live'); //dev/test/live
+define('SS_ENVIRONMENT_TYPE', 'dev'); //dev/test/live
  
 /* Database connection */
 
@@ -19,7 +19,7 @@ define('SS_DATABASE_PASSWORD', 'gdltv1ru5ay2404y');
 define('SS_DEFAULT_ADMIN_USERNAME', 'niv.suresh@ft.co.uk');
 define('SS_DEFAULT_ADMIN_PASSWORD', 'ch411c0n');
 
-var_dump(getenv('DBHOST'));
+/*var_dump(getenv('DBHOST'));
 var_dump(getenv('DBNAME'));
 var_dump(getenv('DBUSER'));
-var_dump(getenv('DBPASS'));
+var_dump(getenv('DBPASS'));*/
